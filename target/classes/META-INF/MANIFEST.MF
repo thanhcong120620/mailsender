@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: DELL
+Build-Jdk: 17.0.7
+Implementation-Title: projectSpringboot
+Implementation-Version: 1.0
+Implementation-Vendor-Id: doAnTN
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/projectSpringboot
+Created-By: Maven Integration for Eclipse
+

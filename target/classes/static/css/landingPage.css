@@ -1,0 +1,74 @@
+body, html {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1d243d;
+    padding: 0;
+    margin: 0;
+}
+
+.time {
+    position: absolute;
+    top: 535px;
+    left: 450px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(208, 0, 0);
+}
+
+.time button {
+    display: none;
+}
+
+.btnPlay{
+    position: absolute;
+    top: 380px;
+    left: 532px;
+    text-align: center;
+    width: 120px;
+    font-size: 25px;
+}
+
+.btnPlay button{
+    width: 195px;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(213, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 234, 234);
+    letter-spacing: 3px;
+}
+
+.btnPlay button:hover{
+    transform: scale(1.1);
+    background-color: rgb(225, 4, 4);
+}
+
+.btnPlay a {
+    text-decoration: none;
+    color: rgb(255, 234, 234);
+}
+
+.getDay{
+    display: none;
+}
+
+h5{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(208, 0, 0);
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+.noPrint{
+    width: 100%;
+    padding:10px;
+    margin: 0px;
+}

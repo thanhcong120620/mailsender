@@ -1,0 +1,125 @@
+
+
+body{
+
+  background-image: url("/image/backgroundBody.jpg");
+
+  /* overflow: hidden; */
+}
+/*------------------LEFT MAIN------------------*/
+
+.leftMain{
+  width: 100%;
+  padding: 10px;
+  height: fit-content;
+
+}
+.tableStatic {
+  padding: 10px;
+  width: 90%;
+  background-color:rgb(250, 253, 253);
+  box-shadow: rgba(25, 25, 25, 0.04) 2px 0 0 0, rgba(0, 0, 0, 0.1) 0 2px 3px 0;
+  border-style: double;
+  margin: 0px 0px 30px 10px;
+  font-family: 'Roboto Slab', serif !important;
+  text-align: center;
+}
+
+.leftLine2{
+  padding: 10px;
+  width: 90%;
+  background-color:rgb(250, 253, 253);
+  box-shadow: rgba(25, 25, 25, 0.04) 2px 0 0 0, rgba(0, 0, 0, 0.1) 0 2px 3px 0;
+  border-style: double;
+  margin: 0px 0px 30px 10px;
+  font-family: 'Roboto Slab', serif !important;
+  text-align: justify;
+}
+
+
+
+
+
+/*------------------RIGHT MAIN------------------*/
+
+/* above-right (draw panel) */
+.tableFrequency{
+	width: 100%;
+  padding: 10px;
+}
+.tableFrequency table tbody tr td {
+  padding-top: 10px;
+}
+
+
+/* format ball-------------------------------------------------- */
+.bol30 {
+  font-family: Arial,Helvetica,sans-serif;
+}
+span.bol30 {
+  background-image: url(/image/glass-balls-30px.png);
+  background-repeat: no-repeat;
+  font-size: 16px;
+  height: 32px;
+  width: 30px;
+  display: inline-block;
+  border: 0;
+  position: static;
+  text-align: center;
+  color: #000;
+  line-height: 30px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+span.bol30_0 {
+  background-position: left 0;
+}
+span.bol30_1 {
+  background-position: left -32px;
+}
+span.bol30_2 {
+  background-position: left -64px;
+}
+span.bol30_3 {
+  background-position: left -97px;
+}
+span.bol30_4 {
+  background-position: left -130px;
+}
+span.bol30_5 {
+  background-position: left -162px;
+}
+span.bol30_6 {
+  background-position: left -194px;
+}
+span.bol30_7 {
+  background-position: left -226px;
+}
+span.bol30_8 {
+  background-position: left -259px;
+}
+span.bol30_9 {
+  background-position: left -291px;
+}
+
+
+
+
+/*------------------CONCLUSION------------------*/
+.conclusion{
+  padding: 10px;
+}
+.content{
+  margin-left: 10px;
+  padding: 10px;
+width: 99%;
+background-color:rgb(250, 253, 253);
+box-shadow: rgba(25, 25, 25, 0.04) 2px 0 0 0, rgba(0, 0, 0, 0.1) 0 2px 3px 0;
+border-style: double;
+font-family: 'Roboto Slab', serif !important;
+text-align: justify;
+}
+.content h5{
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-image: url("/image/backgroundBody.jpg");
+
+}
+.leftMain {
+  background-color: #d9e4e4;
+  position: relative;
+  padding:10px;
+}
+.row {
+  margin: 0px !important;
+}
+.leftMain p {
+  color: none;
+}
+.logoAdmin {
+  margin-left: 25%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .logoAdmin {
+    display: none;
+  }
+}
+
+.leftMain h2 {
+  text-align: center;
+  color: rgb(65, 74, 17);
+  padding: 10px;
+}
+.leftMain h3 {
+  margin-top: 10px;
+  text-align: center;
+  border-bottom: 3px solid grey;
+}
+.leftMain p {
+  text-align: center;
+}
+.dashBoard {
+  width: 100%;
+}
+.dashBoard h4 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 22px;
+}
+.dashBoard ul li {
+  margin-left: -35px;
+  padding: 10px;
+}
+.dashBoard ul li a {
+  text-decoration: none;
+  color: rgb(2, 48, 48);
+  margin-left: 15px;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 15px;
+}
+.dashBoard ul li:hover {
+  background-color: rgb(147, 144, 103);
+  color: #192261;
+}
+.dashBoard ul li:hover a {
+  background-color: rgb(147, 144, 103);
+  color: #192261;
+  font-size: 20px;
+}
+.leftBottom {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.leftBottom button {
+  text-decoration: none;
+  color:rgb(61, 69, 3);
+  color: #dfdeee;
+  font-weight: bold;
+}
+.leftBottom input {
+  border:0;
+  background: rgb(147, 144, 103);
+  border-radius: 10px;
+  width: 50%;
+  height: 15%;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.leftBottom input:hover {
+  background: rgb(61, 69, 3);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.leftBottom i {
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-left: 100px;
+}
+.leftBottom input {
+  margin-top: 15px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+/* .leftBottom ul li:hover i {
+ color: rgb(61, 69, 3);
+} */
+
+/*Right----------------------*/
+.titleRightMain {
+    padding: 10px;
+    display: block;
+    height:auto;
+}
+.title {
+  margin-top: 15px;
+  background-color: #d9e4e4;
+  padding: 20px;
+  font-family: "Trirong", serif;
+}
+.tableUpdate{
+  margin-left: 5px;
+  margin-top: 50px;
+  margin-right: 0px;
+  width: 80%;
+}
+.tableUpdate td {
+  padding-bottom: 10px;
+}
+.day, .month, .year {
+  display: inline-block;
+}
+.btnUpdate{
+  margin-top: 15px;
+  border-radius: 100px;
+}
+.btnUpdate button{
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
