@@ -1,0 +1,176 @@
+body{
+    padding: 0px;
+    background-image: url("/image/backgroundBody.jpg");
+}
+
+/*------------------LEFT MAIN------------------*/
+
+.leftMain{
+    font-family: 'Roboto Slab', serif !important;
+    padding: 0px;
+    margin-top: 35px;
+}
+
+/* left above (calendar display lottery 3 region in that day) */
+.dateSearch {
+    left: 90px !important;
+    width: 100px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(143, 164, 10);
+    color: aliceblue;
+}
+
+/* left below (region of lottery list in a month recently) */
+.leftBelow {
+    border-style: double;
+    margin-top: 30px;;
+    box-shadow: rgba(25, 25, 25, 0.04) 2px 0 0 0, rgba(0, 0, 0, 0.1) 0 2px 3px 0;
+    padding: 10px;
+}
+.leftBelow h4 {
+    font-weight: bold;
+}
+.leftBelow h5{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.leftBelow a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/*------------------MID MAIN------------------*/
+
+.midMain{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Line 1 */
+.midLine1 {
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+/* Line 2 */
+.midLine2,.midLine3, .midLine4 {
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.drawLotteyTitle2,.drawLotteyTitle3,.drawLotteyTitle4 {
+    text-align: center;
+    background-color: rgb(133, 152, 4);
+    color:rgb(227, 227, 227);
+    padding: 10px 0px 3px 0px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.drawLotteyData table tr{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+
+}
+.drawLotteyData table tr td, .drawLotteyData table tr th{
+    border: 1px solid black;
+}
+.footerDrawTable {
+    position: relative;
+    height: 20px;
+    background-color: rgb(133, 152, 4);
+    border-radius: 0px 0px 10px 10px ;
+}
+
+/* display lottery board day nearest */
+
+
+
+
+
+/*------------------RIGHT MAIN------------------*/
+
+/* above-right (draw panel) */
+.rightMain{
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    margin-top: 35px;
+
+}
+  
+.tableDraw table tr {
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
+.tableDraw table tr td {
+    vertical-align: middle;
+    height: 30px;
+    padding-top: 10px;
+}
+.tableDraw table tr td button {
+    height: 70px;
+    width: 50%;
+    margin-top: -15px;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(133, 152, 4);
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 2px 0 0 0, rgba(0, 0, 0, 0.1) 0 2px 3px 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    padding: 25 20px;
+    transition: all 200ms;
+
+}
+.resultDraw {
+    background-color: rgb(196, 157, 0);
+    color: rgb(27, 27, 27);
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
+#error{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+}
+
+
+/* below-right (static list) */
+.rightBelow {
+    margin-top: 30px;
+    padding: 10px;
+    height: fit-content;
+    width: 100%;
+    background-color:rgb(250, 253, 253);
+    box-shadow: rgba(25, 25, 25, 0.04) 2px 0 0 0, rgba(0, 0, 0, 0.1) 0 2px 3px 0;
+    border-style: double;
+}
+.rightBelow {
+    text-align: center;
+}
+
+
+
+
+
+

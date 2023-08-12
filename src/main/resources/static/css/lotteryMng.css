@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body{
+  margin:0px !important;
+  padding: 0px !important;
+  background-image: url("/image/backgroundBody.jpg");
+
+  /* overflow: hidden; */
+}
+.leftMain {
+  background-color: #d9e4e4;
+  position:sticky;
+
+}
+.row {
+  margin:0px !important;
+}
+/***********/
+.midMain p{
+    background-color: coral;
+    
+  }
+.leftMain p{
+    color: none;
+    
+}
+.rightMain p{
+    background-color: green;
+    
+}
+.logoAdmin {
+  margin-left: 25%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .logoAdmin {
+    display: none;
+  }
+}
+
+.leftMain h2{
+  text-align: center;
+  color: rgb(65, 74, 17);
+  padding: 10px;
+
+}
+.leftMain h3{
+  margin-top: 10px;
+  text-align: center;
+  border-bottom: 3px solid grey;
+}
+.leftMain p{
+  text-align: center;
+}
+.dashBoard {
+  width:100%;
+
+}
+/**
+.dashBoard a {
+  float:right;
+  width: 100%;
+  margin-left: 40%;
+  text-decoration: none;
+  background-color: rgb(9, 87, 154);
+  color: black;
+  font-size: 25px;
+}
+.dashBoard a:hover {
+  font-weight: bold;
+  background-color: rgb(3, 57, 105);
+
+}
+**/
+.dashBoard h4{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 22px;
+}
+.dashBoard ul li {
+  margin-left: -35px;
+  padding:10px;
+}
+.dashBoard ul li a {
+  text-decoration: none;
+  color: rgb(2, 48, 48);
+  margin-left: 15px;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 15px;
+}
+.dashBoard ul li:hover {
+  background-color: rgb(147, 144, 103);
+  color: #192261;
+}
+.dashBoard ul li:hover a {
+  background-color: rgb(147, 144, 103);
+  color: #192261;
+  font-size: 20px;
+}
+.leftBottom {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.leftBottom button {
+  text-decoration: none;
+  color:rgb(61, 69, 3);
+  color: #dfdeee;
+  font-weight: bold;
+}
+.leftBottom input {
+  border:0;
+  background: rgb(147, 144, 103);
+  border-radius: 10px;
+  width: 50%;
+  height: 15%;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.leftBottom input:hover {
+  background: rgb(61, 69, 3);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.leftBottom i {
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-left: 100px;
+}
+.leftBottom input {
+  margin-top: 15px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+/* .leftBottom ul li:hover i {
+ color: rgb(61, 69, 3);
+} */
+
+/* Right 
+  overflow: auto;  height: 300px;------------------------------------*/
+.content  {
+
+  width: 100%;
+}
+
+.winCodeTable ul {
+  text-decoration: none;
+  text-align: center;
+}
+.winCodeTable button{
+  text-decoration: none;
+  margin: 10px;
+  position: relative;
+  border:0;
+  background: rgb(147, 144, 103);
+  border-radius: 10px;
+  width: 50%;
+  height: 15%;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.winCodeTable button:hover{
+  background: rgb(61, 69, 3);
+  transform: scale(1.05);
+  cursor: pointer;
+  color: #c4e2e2;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+.day, .month, .year,  .panelQuery p, .panelQuery button  {
+  display: inline-block;
+}
+.tableQuery {
+  border-bottom: solid;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.tableQuery tr td {
+padding: 10px;
+}
+.createBtn, .displayIfm button{
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+.createBtn a {
+  text-decoration: none;
+  color: black;
+}
+/* css các nút xóa */
+#deleteTotal {
+  width:50%; display:inline; opacity: 0.5;
+  margin-left: 2%;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+#error {
+  display: none;
+  margin-left: 2%;  
+  margin-bottom: 10px;
+  color: red;
+  font-style: italic;
+  font-size: 15px;
+}
+#btnDelete {
+  display: none;
+}
+.createBtn{
+  display: inline;
+}
+
+/* css bộ lọc */
+.btnSearch{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: #AAA 2px 2px 2px ;
+  /* padding: 10px;
+  border-radius: 100px 100px 100px 100px;
+  border: none;
+  background-color: rgb(211, 225, 234); */
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.title{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  word-spacing: 7px;
+  letter-spacing: 5px;
+}
+.displayIfm {
+	font-size: 15px;
+}
+
+.content table th, .content table td  {
+	vertical-align: middle;
+}
+
+
+

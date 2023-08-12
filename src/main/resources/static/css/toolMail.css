@@ -1,0 +1,19 @@
+table, th, td {
+    border:1px solid black;
+}
+
+.jumbotron {
+    display: inline-block;
+    width: 100%;
+}
+.logo {
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+.title {
+    float: right;
+    margin: 0px 600px 0px 0px;
+}
+.data {
+    width: 100%
+}

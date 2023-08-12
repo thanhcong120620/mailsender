@@ -1,0 +1,208 @@
+body {
+  margin:0px !important;
+  padding: 0px !important;
+  background-image: url("/image/backgroundBody.jpg");
+}
+.row {
+  margin:0px !important;
+}
+.titleRightMain {
+    padding: 10px;
+    display: block;
+    height:auto;
+    background-color: rgb(226, 226, 66);
+
+}
+
+
+
+.logoAdmin {
+    margin-left: 25%;
+    text-align: center;
+  }
+  
+@media only screen and (max-width: 768px) {
+    .logoAdmin {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .leftMain {
+      position: relative;
+    }
+  
+  }
+  
+  
+  .leftMain {
+    background-color: #d9e4e4;
+    position: fixed;
+    height: 100%;
+    float: left;
+  }
+  .leftMain h2{
+    text-align: center;
+    color: rgb(65, 74, 17);
+    padding: 10px;
+  
+  }
+  .leftMain h3{
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid grey;
+  }
+  .leftMain p{
+    text-align: center;
+  }
+  .dashBoard {
+    width:100%;
+  
+  }
+  /**
+  .dashBoard a {
+    float:right;
+    width: 100%;
+    margin-left: 40%;
+    text-decoration: none;
+    background-color: rgb(9, 87, 154);
+    color: black;
+    font-size: 25px;
+  }
+  .dashBoard a:hover {
+    font-weight: bold;
+    background-color: rgb(3, 57, 105);
+  
+  }
+  **/
+  .dashBoard h4{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .dashBoard ul li {
+    margin-left: -35px;
+    padding:10px;
+  }
+  .dashBoard ul li a {
+    text-decoration: none;
+    color: rgb(2, 48, 48);
+    margin-left: 15px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 15px;
+  }
+  .dashBoard ul li:hover {
+    background-color: rgb(147, 144, 103);
+    color: #192261;
+  }
+  .dashBoard ul li:hover a {
+    background-color: rgb(147, 144, 103);
+    color: #192261;
+    font-size: 20px;
+  }
+  .leftBottom {
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  .leftBottom button {
+  text-decoration: none;
+  color:rgb(61, 69, 3);
+  color: #dfdeee;
+  font-weight: bold;
+}
+.leftBottom input {
+  border:0;
+  background: rgb(147, 144, 103);
+  border-radius: 10px;
+  width: 50%;
+  height: 15%;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.leftBottom input:hover {
+  background: rgb(61, 69, 3);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.leftBottom i {
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-left: 100px;
+}
+.leftBottom input {
+  margin-top: 15px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+/*   .leftBottom ul li:hover i {
+   color: rgb(61, 69, 3);
+  } */
+
+  .day, .month, .year,  .panelQuery p, .panelQuery button  {
+    display: inline-block;
+  }
+.displayRegionCode p {
+  margin:0px;
+}
+.regionCode{
+  font-weight: bold;
+}
+.createRegionCode {
+  position: relative;
+  left: 45%;
+  margin-bottom: 20px;
+}
+
+#error-g8, #error-g7, #error-g61, #error-g62, #error-g63, #error-g5, #error-g31, #error-g32, #error-g2, #error-g1, #error-gDB, #error-g41, #error-g42, #error-g43, #error-g44, #error-g45, #error-g46, #error-g47 {
+  display:none;
+}
+.error-g8, .error-g7, .error-g61, .error-g62, .error-g63, .error-g5, .error-g31, .error-g32, .error-g2, .error-g1, .error-gDB, .error-g41, .error-g42, .error-g43, .error-g44, .error-g45, .error-g46, .error-g47 {
+  position: relative;
+  margin: 0px;
+  color: red;
+  font-style: italic;
+  font-size: 15px;
+}
+.btnCreateLottery {
+  position: relative;
+  display: none;
+  left: 45%;
+  border: 2px solid;
+  margin-bottom: 20px;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 100px;
+  font-weight: bold;
+}
+.warning {
+  position: relative;
+  left: 45%;
+  border: 2px solid;
+  margin-bottom: 20px;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.resetBtn {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
